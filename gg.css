@@ -1,0 +1,97 @@
+body {
+    background: url(assets/images/pattern-circle.svg) no-repeat center right, url(assets/images/pattern-circle.svg) no-repeat left top -100px, url(assets/images/pattern-lines.svg), url(assets/images/pattern-squiggly-line-top.svg) no-repeat right top, url(assets/images/pattern-squiggly-line-bottom-desktop.svg) no-repeat left bottom, url(assets/images/background-desktop.png);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    color: white;
+
+}
+
+.main1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.logoful {
+    margin-top: 20px;
+
+}
+
+.sp1 {
+    background: linear-gradient(to right, hsl(7, 86%, 67%), hsl(0, 0%, 100%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hh1 {
+    color: white;
+}
+
+.hh2 {
+    color: white;
+    margin-top: 1px;
+}
+
+.sp2 {
+    color: hsl(7, 86%, 67%);
+}
+
+
+
+.ticket {
+    background-image: url(assets/images/pattern-ticket.svg);
+    width: 550px;
+    height: 258px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: start;
+    padding: 24px;
+    padding-top: 28px;
+}
+
+.logo {
+    height: 39px;
+}
+
+.pp2 {
+    padding-left: 60px;
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.637);
+    letter-spacing: 3px;
+}
+
+.hh3 {
+    color: rgba(255, 255, 255, 0.637);
+    margin-left: auto;
+    width: 70px;
+    transform: rotate(90deg);
+    letter-spacing: 1px;
+}
+
+.jon {
+    width: 90px;
+    border-radius: 20px;
+}
+
+.hh4 {
+    padding-left: 15px;
+    font-weight: 100;
+    margin: 0;
+}
+
+.j {
+    display: flex;
+}
+
+.logo-git {
+    display: flex;
+}
+
+.icon {
+    padding-right: 4px;
+    padding-left: 20px;
+}
